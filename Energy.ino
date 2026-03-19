@@ -16,8 +16,8 @@
 #define PZEM_TX_PIN 17
 PZEM004Tv30 pzem(Serial2, PZEM_RX_PIN, PZEM_TX_PIN);
 
-const char* ssid = "hum";
-const char* password = "12345678";
+const char* ssid = "your-name";
+const char* password = "your-password";
 
 #define SCREEN_WIDTH 128
 #define SCREEN_HEIGHT 64
